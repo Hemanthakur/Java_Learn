@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Insert {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int [][] arr=new int [2][3];
+	for(int r=0;r<=1;r++) {
+		for(int c=0;c<=2;c++) {
+			arr[r][c]=sc.nextInt();
+		}
+	System.out.println();
+	}
+	int [][] arre=new int[2][3];
+	for(int r=0;r<=1;r++) {
+		for(int c=0;c<=2;c++) {
+			arre[r][c]=sc.nextInt();
+		}
+	System.out.println();
+	}
+	int [][] sum=new int [2][3];
+	for(int r=0;r<=1;r++) {
+		for(int c=0;c<=2;c++) {
+			System.out.print(arr[r][c]+arre[r][c]+"\t");
+		}
+	System.out.println();
+	}
+	
+	}
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Insert {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	double [][] arr=new double [3][3];
+	for(int r=0;r<=2;r++) {
+		for(int c=0;c<=2;c++) {
+			arr[r][c]=sc.nextDouble();
+		}
+	System.out.println();
+	}
+	System.out.println("2019"+"\t"+"2020"+"\t"+"2021");
+	System.out.println("Ram"+"\n"+"Sham"+"\n"+"Mohan");
+	for(int r=0;r<=2;r++) {
+		for(int c=0;c<=2;c++) {
+			System.out.print(arr[r][c]+"\t");
+		}
+	System.out.println();
+	}
+	
+	}
+}

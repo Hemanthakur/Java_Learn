@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Insert {
+
+	public static void main(String[] args) {
+		int a[]=new int[50];
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of array:");
+        int n=sc.nextInt();
+	   for(int i=0;i<n;i++) {
+		a[i]=sc.nextInt();
+	   }
+	System.out.println("Enter the position you want to enter:");
+    int p=sc.nextInt();
+    System.out.println("Enter the element:");
+	int v=sc.nextInt();
+	for(int i=n-1;i>=p-1;i--) {
+		a[i+1]=a[i];
+	}
+	a[p-1]=v;
+	
+	for(int i=0;i<=n;i++)
+	{
+		System.out.println(a[i]+" ");
+	}
+	
+	
+	}
+
+}

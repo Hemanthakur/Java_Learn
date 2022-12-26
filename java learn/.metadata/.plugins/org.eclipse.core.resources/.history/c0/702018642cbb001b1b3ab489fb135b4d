@@ -1,0 +1,17 @@
+package intro;
+import java.util.*;
+
+public class Questioncpp {
+
+	public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int [] student=new int[20];
+      int count=0;
+      for(int i=0;i<20;i++) {
+    	  System.out.println("Enter Student "+(i+1)+" marks:");
+    	  student[i]=sc.nextInt();
+      }
+      
+	}
+
+}

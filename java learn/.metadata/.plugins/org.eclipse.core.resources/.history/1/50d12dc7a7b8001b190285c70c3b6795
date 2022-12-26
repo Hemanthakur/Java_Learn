@@ -1,0 +1,15 @@
+package intro;
+
+public class Demo {
+	public static void main(String[] args) {
+	int p=0;
+	int n =4;
+	int a=2;
+	if((n & 1)==0) {
+		System.out.println("even"); 
+	}
+	else {
+		System.out.println("odd");
+	}
+	}
+}
